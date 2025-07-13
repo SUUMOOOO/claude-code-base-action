@@ -25,7 +25,7 @@ jobs:
           fetch-depth: 1
 
       - name: Run Claude PR Agent
-        uses: anthropics/claude-pr-action@main
+        uses: SUUMOOOO/claude-pr-action@main
         with:
           timeout_minutes: "60"
           github_token: ${{ secrets.GITHUB_TOKEN }}
